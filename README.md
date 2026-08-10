@@ -29,7 +29,7 @@ Bale's Bot API is **Telegram-compatible**, using `https://tapi.bale.ai/bot<TOKEN
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/YOUR_USERNAME/bale-hermes.git
+git clone https://github.com/erfan138057/bale-hermes.git
 
 # 2. Copy the plugin into your Hermes plugins directory
 mkdir -p ~/.hermes/plugins/platforms/bale
@@ -170,6 +170,19 @@ The adapter uses `aiohttp` for fully async I/O, matching Hermes' async event loo
 
 ---
 
+## 💛 Support
+
+If this project helped you, consider supporting:
+
+**Daramet:** [daramet.com/erfan138057](https://daramet.com/erfan138057)
+
+**USDT (BEP20):**
+```
+0x9ee9a9ef2b9679fa99b3b36313bc581a66b05cfb
+```
+
+---
+
 ## 📝 License
 
 MIT License — see [LICENSE](LICENSE).
@@ -178,7 +191,9 @@ MIT License — see [LICENSE](LICENSE).
 
 ## 👤 Author
 
-**Erfan Rahmat Zadeh**
+**عرفان**
+
+GitHub: [@erfan138057](https://github.com/erfan138057)
 
 ---
 

@@ -7,7 +7,7 @@ description: >
   Connects via the Telegram-compatible Bale Bot API (tapi.bale.ai).
   Supports text messaging, typing indicators, cron delivery, and
   per-user access control.
-author: Erfan Rahmat Zadeh
+author: Erfan
 emoji: "🟦"
 
 requires_env:
