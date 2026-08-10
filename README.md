@@ -80,12 +80,12 @@ hermes gateway setup
 BALE_BOT_TOKEN=your_bot_token_here
 
 # Optional: restrict access
-BALE_ALLOWED_USERS=49036693,12345678
+BALE_ALLOWED_USERS=12345678
 # OR allow everyone:
 BALE_ALLOW_ALL_USERS=true
 
 # Optional: default chat for cron/notification delivery
-BALE_HOME_CHANNEL=49036693
+BALE_HOME_CHANNEL=
 ```
 
 ### Step 3: Restart the gateway
