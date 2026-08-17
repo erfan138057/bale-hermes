@@ -20,6 +20,10 @@ Bale's Bot API is **Telegram-compatible**, using `https://tapi.bale.ai/bot<TOKEN
 - ✅ Interactive setup wizard (`hermes gateway setup`)
 - ✅ Auto-reconnect with exponential backoff
 - ✅ Session source routing (DM + group support)
+- ✅ **Commands in Persian** (`/start`, `/help`, `/status`, etc.)
+- ✅ **Inline keyboard buttons in Persian**
+- ✅ **Media support** (photos, videos, audio, documents)
+- ✅ **Stats tracking** (messages sent, errors, connect time)
 
 ---
 
@@ -114,6 +118,63 @@ Send another message — the bot should respond! 🎉
 
 ---
 
+## 🎯 Commands (فارسی)
+
+پلاگین Bale دستورات زیر رو ساپورت می‌کنه:
+
+| Command | Description |
+|---------|-------------|
+| `/start` | شروع — ربات را راه‌اندازی کنید |
+| `/help` | راهنما — نمایش راهنما |
+| `/settings` | تنظیمات — تغییر تنظیمات |
+| `/menu` | منو — نمایش منوی اصلی |
+| `/status` | وضعیت — بررسی وضعیت اتصال |
+| `/info` | اطلاعات — اطلاعات ربات |
+| `/contact` | تماس — ارتباط با پشتیبانی |
+| `/feedback` | بازخورد — ارسال بازخورد |
+
+---
+
+## 🔤 Inline Keyboard (فارسی)
+
+دکمه‌های اینلاین کیبورد فارسی در دسترس هستند:
+
+- 🏠 خانه
+- ❓ راهنما
+- ⚙️ تنظیمات
+- 📊 وضعیت
+- ℹ️ اطلاعات
+- 💬 بازخورد
+- 📞 تماس
+
+---
+
+## 📷 Media Support
+
+پلاگین از ارسال فایل‌های مدیا ساپورت می‌کنه:
+
+- ✅ عکس (JPEG, PNG, WebP)
+- ✅ ویدیو (MP4, MOV, AVI)
+- ✅ صدا (MP3, OGG, WAV)
+- ✅ فایل (هر فرمتی)
+
+**محدودیت:** حداکثر ۵۰ مگابایت
+
+---
+
+## 📊 Stats & Health
+
+پلاگین آمار زیر رو ردیابی می‌کنه:
+
+- پیام‌های ارسال شده
+- پیام‌های دریافتی
+- فایل‌های مدیا ارسال شده
+- تعداد خطاها
+- زمان اتصال
+- تعداد reconnect
+
+---
+
 ## 📁 Repository Structure
 
 ```
@@ -199,7 +260,7 @@ GitHub: [@erfan138057](https://github.com/erfan138057)
 
 ## 🤝 Contributing
 
-PRs welcome! If you find a bug or want to add a feature (e.g., photo/video/sticker support, inline keyboards), feel free to open an issue or submit a pull request.
+PRs welcome! If you find a bug or want to add a feature, feel free to open an issue or submit a pull request.
 
 ---
 
