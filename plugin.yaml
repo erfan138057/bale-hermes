@@ -1,12 +1,12 @@
 name: bale-platform
 label: Bale
 kind: platform
-version: 1.0.0
+version: 1.1.0
 description: >
   Bale (بله) messaging gateway adapter for Hermes Agent.
   Connects via the Telegram-compatible Bale Bot API (tapi.bale.ai).
-  Supports text messaging, typing indicators, cron delivery, and
-  per-user access control.
+  Supports text messaging, inline keyboards, commands, typing indicators,
+  cron delivery, media (photos, videos, audio, documents), and per-user access control.
 author: Erfan
 emoji: "🟦"
 
