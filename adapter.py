@@ -293,8 +293,6 @@ class BaleAdapter(BasePlatformAdapter):
             message_type=MessageType.TEXT,
             source=source,
             message_id=message_id,
-            user_id=user_id,
-            user_name=user_name,
             raw_message=message,
             timestamp=datetime.datetime.now(),
         )
